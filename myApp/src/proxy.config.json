@@ -1,0 +1,20 @@
+{
+  "/api": {
+    "target": "http://www.dneonline.com",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api": ""
+    }
+  },
+  "/temprature": {
+    "target": "https://www.w3schools.com",
+    "secure": true,
+    "logLevel": "debug",
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/temprature": ""
+    }
+  }
+}
